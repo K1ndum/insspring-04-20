@@ -1,0 +1,16 @@
+
+@mixin mainLocationBlock ($top, $left, $width, $color, $z-index){
+    color: $color;
+    z-index: $z-index;
+    top: $top;
+    left: $left;
+    width: $width;
+}
+
+@mixin textSettings ($font-size:170px, $line-height: 1.55, $font-weight: 400, $color: $mainColor){
+    font-size: $font-size;
+    font-family: $font-family;
+    line-height: $line-height;
+    font-weight: $font-weight;
+    color: $color;
+}
